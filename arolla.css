@@ -4,5 +4,9 @@
 @import 'default';
 
 section {
-  background: red;
+  
+  color : #73A84D;
+}
+h1 {
+	 background: #73A84D;
 }

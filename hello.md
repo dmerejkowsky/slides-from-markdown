@@ -2,6 +2,8 @@
 theme: arolla
 ---
 
+![bg](background.png)
+
 # Hello
 
 This is a title
@@ -10,7 +12,7 @@ This is a title
 
 # Other
 
-This is an *other* slide
+This is an *other* slidex	
 
 This is **important**.
 
