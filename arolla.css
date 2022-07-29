@@ -1,0 +1,8 @@
+/* arolla.css */
+/* @theme arolla */
+
+@import 'default';
+
+section {
+  background: red;
+}
