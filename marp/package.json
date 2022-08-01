@@ -8,6 +8,6 @@
     "@marp-team/marp-cli": "^2.0.4"
   },
   "scripts": {
-      "start": "marp --allow-local-files --watch hello.md --theme-set arolla.css -o hello.pdf"
+      "start": "marp --allow-local-files --pdf-notes --watch hello.md --theme-set arolla.css -o hello.pdf"
   }
 }
