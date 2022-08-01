@@ -1,0 +1,5 @@
+html:
+  pandoc --from markdown --to s5 \
+    --standalone \
+    contents.md \
+    --output hello.html
