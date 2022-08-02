@@ -550,7 +550,13 @@ div.handout {
     visibility: hidden
   }
 
-  .hidden { display: none; visibility: visible }
+  div.arolla-banner {
+    background-image: url("background.png");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   body.single_slide div.initial_prompt {
     display: block;

@@ -42,29 +42,22 @@ $for(include-before)$
 $include-before$
 $endfor$
 $if(title)$
-<div class="slide titlepage">
-  <div class="background"></div>
-  <div class="title-wrapper">
-  <h1 class="title">$title$</h1>
-$if(subtitle)$
-  <p class="subtitle">$subtitle$</p>
-$endif$
-$if(author)$
-  <p class="author">
-$for(author)$$author$$sep$<br/>$endfor$
-  </p>
-$endif$
-$if(institute)$
-  <p class="institute">
-$for(institute)$$institute$$sep$<br/>$endfor$
-  </p>
-$endif$
-$if(date)$
-  <p class="date">$date$</p>
-$endif$
+<div class="slide titlepage p-0 m-0">
+  <div class="container-fluid h-100 w-100 m-0 p-0">
+    <div class="row h-50 w-100 p-0 m-0 arolla-banner">
+    </div>
+    <div class="row h-50 w-100">
+      <span class="title">$title$</span>
+      $if(subtitle)$
+      <p class="subtitle">$subtitle$</p>
+      $endif$
+      $if(date)$
+      <p class="date">$date$</p>
+      $endif$
+    </div>
   </div>
-</div>
 $endif$
+</div>
 $if(toc)$
 <div class="slide" id="$idprefix$TOC">
 $table-of-contents$
