@@ -13,6 +13,14 @@ This is an *other* slide
 
 This is **important**.
 
+```java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, world");
+    }
+}
+```
+
 # Last
 
 ![](cute-duck.jpg)

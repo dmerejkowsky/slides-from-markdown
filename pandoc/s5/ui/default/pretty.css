@@ -25,6 +25,9 @@ sup {font-size: smaller; line-height: 1px;}
 #slide0 {
     text-align: center;
     background-image: url("background.png");
+    background-size: cover;
+    position: relative;
+    background-position: center;
 }
 
 
