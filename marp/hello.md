@@ -12,13 +12,21 @@ This is a title
 
 # Other
 
-This is an *other* slidex
+This is an *other* slide
 
 This is **important**.
 
 <!--
 This is a note for the speaker
 -->
+
+```java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, world");
+    }
+}
+```
 
 ----
 
