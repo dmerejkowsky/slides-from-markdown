@@ -1,6 +1,7 @@
 ---
 title: Hello slidy
 slidy-url: arolla
+date: 2022-08-02
 ---
 
 # Hello
