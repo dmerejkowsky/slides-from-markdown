@@ -120,6 +120,10 @@ div.slide.titlepage h1 {
   margin-right: 0;
 }
 
+.note {
+    background: red;
+}
+
 div.slide h1 {
   padding-left: 0;
   padding-right: 20pt;

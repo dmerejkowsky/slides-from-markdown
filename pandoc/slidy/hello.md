@@ -22,6 +22,8 @@ def answer():
 
 # Last
 
+<p class="note">This is a note with some *style* in it</p>
+
 ![](cute-duck.jpg)
 
 
