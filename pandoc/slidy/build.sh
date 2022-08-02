@@ -3,4 +3,4 @@
 set -x
 set -e
 
-pandoc -f markdown --to slidy hello.md --standalone -o hello.html
+pandoc --template templates/slidy.tpl -f markdown hello.md --standalone -o hello.html
