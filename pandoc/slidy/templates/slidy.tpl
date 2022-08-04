@@ -51,8 +51,8 @@
             <h1 class="title m-0 p-0">$title$</h1>
             $if(subtitle)$
             <h2 class="subtitle">$subtitle$</h2>
+            $endif$
           </div>
-          $endif$
           $if(date)$
           <span class="date m-3 py-3">$date$</span>
           $endif$
@@ -71,5 +71,4 @@
   $include-after$
   $endfor$
 </body>
-
 </html>
