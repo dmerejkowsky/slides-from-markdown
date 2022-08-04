@@ -67,6 +67,7 @@
   </div>
   $endif$
   $body$
+  <div class="footer">&copy; Arrola</div>
   $for(include-after)$
   $include-after$
   $endfor$
