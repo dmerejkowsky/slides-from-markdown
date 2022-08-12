@@ -4,13 +4,23 @@ slidy-url: arolla
 date: 2022-08-02
 ---
 
-# Hello
+# Part one
 
-## This is a subtitle
+## First slide
 
-This is some contents
+This is the first slide of part one
 
-# Other
+### {.alert}
+
+You must read the pandoc doc!
+
+## Second subtitle
+
+This is some contents for the second slide
+
+# Part two
+
+## Other
 
 This is an *other* slide
 
@@ -23,10 +33,16 @@ def answer():
     return 42
 ```
 
-# Last
+##  Kata {.kata}
+
+This is a slide with a different style because it talks about a kata
+
+# Last part
+
+## Last slide
 
 <p class="note">This is a note with some *style* in it</p>
 
+And an image:
+
 ![](cute-duck.jpg)
-
-
