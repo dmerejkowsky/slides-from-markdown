@@ -3,4 +3,10 @@
 set -x
 set -e
 
-pandoc --to slidy --template templates/slidy.tpl -f markdown hello.md --standalone -o hello.html
+pandoc hello.md \
+    --from markdown \
+    --slide-level=2 \
+    --to slidy \
+    --template templates/slidy.tpl  \
+    --standalone \
+    --output hello.html
