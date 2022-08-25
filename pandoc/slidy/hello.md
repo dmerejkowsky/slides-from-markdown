@@ -10,10 +10,6 @@ date: 2022-08-02
 
 This is the first slide of part one
 
-### {.alert}
-
-You must read the pandoc doc!
-
 ## Second subtitle
 
 This is some contents for the second slide
@@ -28,6 +24,12 @@ This is **important**.
 
 It talks about Python
 
+::: some-class
+
+A div with some class here
+
+:::
+
 ```python
 def answer():
     return 42
@@ -36,6 +38,16 @@ def answer():
 ##  Kata {.kata}
 
 This is a slide with a different style because it talks about a kata
+
+There's also an incremental list
+
+::: incremental
+
+* ready
+* set
+* go!
+
+:::
 
 # Last part
 
